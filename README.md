@@ -3,7 +3,7 @@ A repository for the Coursera Getting and Cleaning Data Course Final coding Proj
 
 The R script `run_analysis.R` which is uploaded into this repository and completes the coding Project does the following:
 
-1. Sets the working directory where I've downloaded the files from the link provided by Coursera, and opens the librarys that will be used in the script.
+1. Sets the working directory where I've downloaded the files from the link provided by Coursera, and opens the libraries that will be used in the script.
 2. Imports the training and testing datasets for X and Y,as well as the subjects, from this working directory into R.
 3. Merges the X, Y and Subject datasets for training and testing into only one dataset, named "Unified_Dataset".
 4. Loads the activities and features information in the same way we did with the testing and training data into R
