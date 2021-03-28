@@ -8,5 +8,6 @@ The R script `run_analysis.R` which is uploaded into this repository and complet
 3. Merges the X, Y and Subject datasets for training and testing into only one dataset, named "Unified_Dataset".
 4. Loads the activities and features information in the same way we did with the testing and training data into R
 5. Once we've done this we can give activity names to each activity
-6. And we can also name the variables according to what they represent in the dataset
-7. FInally, after naming the variables, and giving every activity its name, we can create the tidy dataset by melting and casting the previous dataset, to obtain the average value of each variable.
+6. And we can also name the variables according to what they represent in the dataset.
+7. We only select the variables which include measurements on the mean or standard deviation and name this our `Unified_mean_std` dataset
+8. Finally, after naming the variables, and giving every activity its name, we can create the tidy dataset by melting and casting the previous dataset, to obtain the average value of each variable.
