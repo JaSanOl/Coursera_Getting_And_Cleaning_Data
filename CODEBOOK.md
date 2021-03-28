@@ -1,14 +1,14 @@
 # Coding Book for the Final Assignment of Getting and Claeaning Data Course
 
-What makes up the Original Data?
+## What makes up the Original Data?
 
 The original Data is a dataset which describes for 30 subjects the measurements on variables such as acceleration performed on their Samsung Galaxy S Phone which
 are reflected through the mesadurement devices inside the phone such as the accelerometer or the gyroscope. More information on the data con be found on the
 following link:
 
-##[Data used for the Coding Assignment](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+[Data used for the Coding Assignment](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-How have I modfied the original data?
+### How have I modfied the original data?
 
 The Original Data was modified by performing the following trasnformations:
 
