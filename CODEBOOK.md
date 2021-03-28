@@ -1,20 +1,20 @@
-# Coding Book for the Final Assignment of Getting and Claeaning Data Course
+# Coding Book for the Final Assignment of Getting and Cleaning Data Course
 
 ## What makes up the Original Data?
 
 The original Data is a dataset which describes for 30 subjects the measurements on variables such as acceleration performed on their Samsung Galaxy S Phone which
-are reflected through the mesadurement devices inside the phone such as the accelerometer or the gyroscope. More information on the data con be found on the
+are reflected through the measurement devices inside the phone such as the accelerometer or the gyroscope. More information on the data con be found on the
 following link:
 
 [Data used for the Coding Assignment](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ### How have I modfied the original data?
 
-The Original Data was modified by performing the following trasnformations:
+The Original Data was modified by performing the following transformations:
 
 1. Merging the testing and training datasets for X and Y.
 2. Merging the Subject dataset with this dataset as well.
-3. Changing the variable names included in the X and Y datsets for descriptive names, which were included in the feature data.
+3. Changing the variable names included in the X and Y datasets for descriptive names, which were included in the feature data.
 4. Changing the categorical numeric values of the Activity variable for literal descriptive values which were included in the activity_labels data file.
 5. Selecting only the variables which indicate the mean or the standard deviation of a certain measurement.
 6. Create a new dataset which for the variables Subject and Activity, which are our ID variables calculates the average of every variable we selected
@@ -25,9 +25,9 @@ The variables we have used are the following:
 
 As ID Variables:
 
-THe first two columns of the dataset which are:
+The first two columns of the dataset which are:
 
-- Subject: Describes which Subject the data belongs to. THe subjects are numbered 1 through 30.
+- Subject: Describes which Subject the data belongs to. The subjects are numbered 1 through 30.
 - Activity: A descriptive name for the activity for which the measurements are being performed.
 
 
