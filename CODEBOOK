@@ -112,3 +112,6 @@ The measurement variables which are included in the features dataset are the fol
 - fBodyBodyGyroJerkMag-mean()
 - fBodyBodyGyroJerkMag-std()
 - fBodyBodyGyroJerkMag-meanFreq()
+
+
+This sums up the variables used and changes made to these
