@@ -98,6 +98,6 @@ melted_df <- melt(Unified_mean_std, id = c("Subject", "Activity"))
 
 tidy_final_df <-  dcast(melted_df, Subject + Activity ~ variable, mean)
 
-write.table(tidy_final_df, file = "./tidy_final_dataset.csv", row.names = FALSE, quote = FALSE)
+write.table(tidy_final_df, file = "./tidy_final_dataset.txt", row.names = FALSE, quote = FALSE)
 
 ### Now we have a tidy dataframe, and have completed the assignment.
