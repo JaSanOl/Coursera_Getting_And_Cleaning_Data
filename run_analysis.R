@@ -1,6 +1,6 @@
 ###Script for the Coding Assginment of Week 4 of Getting and Cleaning data Course
 
-### Setting the working directory where I´ve downloaded the data files
+### Setting the working directory where IÂ´ve downloaded the data files
 ### And making available the libraries we're going to use.
 
 setwd("C:/Users/javie/OneDrive/Documents/R")
@@ -98,6 +98,6 @@ melted_df <- melt(Unified_mean_std, id = c("Subject", "Activity"))
 
 tidy_final_df <-  dcast(melted_df, Subject + Activity ~ variable, mean)
 
-write.csv(tidy_final_df, file = "./tidy_final_dataset.csv", row.names = TRUE, quote = FALSE)
+write.table(tidy_final_df, file = "./tidy_final_dataset.csv", row.names = FALSE, quote = FALSE)
 
 ### Now we have a tidy dataframe, and have completed the assignment.
